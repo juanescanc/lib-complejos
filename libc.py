@@ -2,6 +2,7 @@ import numpy as np
 import math
 import cmath
 # Suma complejos representados como una tupla (real, imaginaria)
+# la suma, la multiplicación y polar lo saque del codigo del profesor que publico en teams, y modifique el codigo dandome una idea como se podia hacer
 def sumacplx(a,b):
     real = a[0] + b[0]
     img = a[1] + b[1]
